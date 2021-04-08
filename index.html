@@ -1,0 +1,70 @@
+---
+layout: normal
+title: hackathon x
+color: "#ff00b6"
+bg_url: "/assets/images/X.svg"
+bg_position: "center center"
+bg_size: "50% 50%"
+---
+<section class="box">
+	<header class="content-header">
+		<h1>{{ site.slogan }}</h1>
+		<p><strong>{{ site.date }}</strong></p>
+		<a class="btn" href="{{ site.apply_url }}" target="_blank" rel="noopener">Apply Now</a>
+		<p><strong id="coutdown">Loading...</strong></p>
+	</header>
+</section>
+
+
+<script type="text/javascript">
+	var countDownDate = new Date("{{ site.deadline }}");
+	var x = setInterval(function() {
+		var now = new Date().getTime();
+		var distance = countDownDate - now;
+		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+		var message = "{{ site.deadline_title }} " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+		document.getElementById("coutdown").innerHTML = message;
+		if (distance < 0) {
+			clearInterval(x);
+			document.getElementById("coutdown").innerHTML = "{{ site.deadline_expired }}";
+		}
+	}, 1000);
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Event",
+	"name": "hackathon x",
+	"description": "The hackathon x invites hackers to create awesome games in a museum context. It takes place in Karlsruhe, Germany.",
+    "image": "https://hackathonx.de/assets/images/logos/hackathon-x/SVG/BLM_museumx_LOGO_hackathon_weiss-rot.svg",
+	"startDate": "2019-12-07T09:00",
+	"endDate": "2019-12-08T19:00",
+	"organizer": {
+		"name": "Hack und Söhne"
+	},
+	"location": {
+		"@type": "Place",
+		"name": "Museum beim Markt",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Karl-Friedrichstr. 6",
+			"addressLocality": "Karlsruhe",
+			"postalCode": "76133",
+			"addressCountry": "DE"
+		}
+	},
+	"offers": {
+		"@type": "Offer",
+		"name": "Admission",
+		"price": "0",
+		"priceCurrency": "EUR",
+		"validFrom": "2019-10-30T09:00",
+		"url": "https://apply.hackathonx.de/",
+		"availability": "http://schema.org/InStock"
+	}
+}
+</script>

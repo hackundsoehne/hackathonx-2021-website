@@ -1,0 +1,27 @@
+---
+layout: normal
+title: About
+color: "#E30613"
+bg_url: "/assets/images/X.svg"
+bg_position: "80vw 20vh"
+---
+<header class="content-siteheader">
+	<h1>{{ page.title }}</h1>
+</header>
+
+{% for section in site.about %}
+<section class="section">
+	<div class="section-text colored">
+		<h4 class="accent-tc">{{ section.title }}</h4>
+		{{ section.content | markdownify }}
+	</div>
+
+	<figure class="section-image">
+		<img src="{{ section.image }}" alt="{{ section.title }} Image">
+		{% if section.image_caption %}
+			<figcaption>{{ section.image_caption }}</figcaption>
+		{% endif %}
+		<footer><small> {{section.image-copyright}} </small></footer>
+	</figure> 
+</section>
+{% endfor %}
