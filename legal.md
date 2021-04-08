@@ -24,7 +24,7 @@ Postfach 111 462
 
 Germany
 
-Vertreten durch Lise-Marie Massanga und Leander Kurscheidt
+Vertreten durch Clemens Gaberdiel und Paul Wagner
 
 E-Mail: info@talkit.eu
 
