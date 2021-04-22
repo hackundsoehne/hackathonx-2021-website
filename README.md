@@ -1,5 +1,6 @@
 ## How to run this locally?
 
+- Make sure you're using Ruby 2.x, Ruby 3.x is not compatible. `rbenv` will handle this for you automatically.
 - Install `bundler` and `jekyll`: `gem install bundler jekyll`
 - Serve the website: `bundle exec jekyll serve`
 
