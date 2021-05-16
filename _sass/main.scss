@@ -264,6 +264,25 @@ h6 { font-size: 1rem; }
 		color: #ccc;
 	}
 
+	.section-image-inpost {
+		margin: 0;
+		max-width: 380px;
+		margin-right: 2rem;
+		margin-bottom: 3rem;
+		float: left;
+		clear: both;
+	}
+
+	.section-image-inpost img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.section-image-inpost figcaption {
+		font-size: .75rem;
+		color: #ccc;
+	}
+
 	.section-text {
 		flex: 1 1 auto;
 		order: 2;

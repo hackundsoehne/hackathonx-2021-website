@@ -9,13 +9,27 @@ bg_position: "-20vw 10vh"
 	<h1>{{ page.title }}</h1>
 </header>
 
-<h2 style="text-align: center;">TBA - stay tuned!</h2>
+<p>
+While organizing our schedule we chose quality over quantity. We are convinced that a few exciting, hand-picked talks make a great hackathon while not distracting you from actually working on your project; The hackathon will take place on gather.town, so there will be plenty of opportunities for exchange.
+</p>
 
-<!--
 <div class="framedlists">
 
 	<div class="framedlist">
-		<header class="list-header"><b>Saturday</b>, December 7th</header>
+		<header class="list-header"><b>Friday</b>, June 25th</header>
+		<ol>
+		{% for item in site.data.friday %}
+			<li>
+				<b>{{ item.time }}</b>
+				<br>
+				<span>{{ item.name }}</span>
+			</li>
+		{% endfor %}
+		</ol>
+	</div>
+
+	<div class="framedlist">
+		<header class="list-header"><b>Saturday</b>, June 26th</header>
 		<ol>
 		{% for item in site.data.saturday %}
 			<li>
@@ -28,7 +42,7 @@ bg_position: "-20vw 10vh"
 	</div>
 
 	<div class="framedlist">
-		<header class="list-header"><b>Sunday</b>, December 8th</header>
+		<header class="list-header"><b>Sunday</b>, June 27th</header>
 		<ol>
 		{% for item in site.data.sunday %}
 			<li>
@@ -41,7 +55,6 @@ bg_position: "-20vw 10vh"
 	</div>
 
 </div>
--->
 
 <!--
 <div class="content-footer">

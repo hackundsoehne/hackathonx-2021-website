@@ -1,0 +1,10 @@
+- time: 17:00 - 18:00
+  name: Opening Session
+- time: "18:00"
+  name: Hacking starts!
+- time: 18:00 - 19:00
+  name: Teambuilding
+- time: 18:00 - 21:00
+  name: Mentors available for Q&A
+- time: "21:00"
+  name: Social

@@ -6,11 +6,11 @@ bg_url: "/assets/images/X.svg"
 bg_position: "75vw -25vh"
 ---
 <div class="container colored">
-	<p>We're happy to present a hybrid event concept: The event will take place both digitally and physically at the museum x. Details will be announced soon.</p>
+	<p>This year, hackathon x will be held entirely as a digital event. If possible, we will organise a get together on the evenings for those present in Karlsruhe and keep you posted.</p>
 
 	<div id="map" class="map"></div>
 
-    <p>hackathon x takes place in the recently opened <a href="https://www.landesmuseum.de/creative/museum-x" target="_blank" rel="noopener">museum x</a> of the Badisches Landesmuseum. As an open space it serves as a platform to discuss the analogue and digital future of museums with all who are interested - the perfect place for a hackathon! <a href="https://hackathonx.de/museumx.pdf">Click here for more information about the museum x.</a></p>
+    <p>hackathon x has its home base in the <a href="https://www.landesmuseum.de/creative/museum-x" target="_blank" rel="noopener">museum x</a> of the Badisches Landesmuseum. As an open space, it serves as a creative platform to discuss the analogue and digital future of museums with everyone interested. Hopefully it can reopen soon, <a href="https://hackathonx.de/museumx.pdf">click here for more information about the museum x.</a></p>
 
 	<h3 class="accent-tc">Address</h3>
 	<address>
@@ -27,6 +27,7 @@ bg_position: "75vw -25vh"
 <link rel="stylesheet" type="text/css" href="/assets/css/leaflet.css">
 <script src="/assets/js/leaflet.js"></script>
 <script>
+
 	var map = L.map('map').setView([49.00074, 8.3835], 13);
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -38,8 +39,12 @@ bg_position: "75vw -25vh"
 		popupAnchor: [0, -20]
 	});
 
-L.marker([49.009985, 8.403823], {icon: myIcon})
-		.addTo(map)
-		.bindPopup('museum x')
-		.openPopup();
+	latLng = [49.009985, 8.403823];
+	L.marker(latLng, {icon: myIcon})
+			.addTo(map)
+			.bindPopup('museum x')
+			.openPopup();
+
+	var markerBounds = L.latLngBounds([latLng]);
+	map.fitBounds(markerBounds);
 </script>

@@ -2,7 +2,7 @@ baseurl: ""
 url: "https://hackathonx.de"
 title: hackathon x
 description: >-
-  Digital Museum Experience
+  The Digital Museum
 author: Hack &amp; Söhne
 google_site_verification: tjukQQpmzsqdbPMnXjNBcrTMyJvr9QDKjFdGEuhEJwM
 smooch_appid: 5db616dc3c1b9300101aef38
@@ -10,13 +10,14 @@ lang: en_US
 image: /assets/images/logos/hackathonx-logo.svg
 logo: /assets/images/logos/hackathonx-logo.svg
 
-slogan: Digital Museum Experience
+slogan: The Digital Museum
+subslogan: Games - Platforms - AI
 info_email_hs: info@hackundsoehne.de
 info_email_musx: creative@landesmuseum.de
 date: June 25th-27th, 2021
 apply_url: https://apply.hackathonx.de/
-deadline: "2021-06-10T23:59:59.000+01:00"
-deadline_string: "June 10th 2021, 23:59:59 GMT+1"
+deadline: "2021-06-17T23:59:59.000+01:00"
+deadline_string: "June 17th 2021, 23:59:59 GMT+1"
 deadline_title: "Application Deadline:"
 deadline_expired: "The application deadline expired."
 
