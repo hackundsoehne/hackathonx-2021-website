@@ -1,12 +1,6 @@
 ---
 title: Who is behind hackathon x?
 style: custom
-imageA: /assets/images/about/johannes.jpg
-image-copyrightA: "© Badisches Landesmuseum, Foto: ARTIS – Uli Deck"
-imageB: /assets/images/about/johannes.jpg
-image-copyrightB: "© Badisches Landesmuseum, Foto: ARTIS – Uli Deck"
-imageC: /assets/images/about/johannes.jpg
-image-copyrightC: "© Badisches Landesmuseum, Foto: ARTIS – Uli Deck"
 ---
 
 ![Dr. Johannes Bernhardt](/assets/images/about/johannes.jpg){:class="section-image-inpost" }
