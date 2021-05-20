@@ -8,7 +8,7 @@ style: custom
 {: .accent-tc}
 Dr. Johannes Bernhardt is Digital Manager at Badisches Landesmuseum. After ten years at the universities of Freiburg, Mannheim and Bochum, he moved to the Badisches Landesmuseum in 2017 and was lead of the Creative Collections project 2018-2020, working at the intersection of digitality and participation – he is still a passionate gaming enthusiast.
 
-![Christiane Lindner](/assets/images/about/christiane.png){:class="section-image-inpost"}
+![Christiane Lindner](/assets/images/about/christiane.jpg){:class="section-image-inpost"}
 Christiane Lindner leads the museum x.o platform project. After working at museums in Vienna, London, Amsterdam and Berlin, she joined the Badisches Landesmuseum in 2020. As Digital Catalyst and lead of the Creative Collections project she was responsible for the participatory development and implementation of new digital tools to enhance audience engagement. She envisions the museum of the future as a space for creativity and debate.
 {: style="clear: both"}
 
