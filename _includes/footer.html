@@ -1,32 +1,34 @@
 <footer class="footer">
-	<div class="footer-logos">
-		<a target="_blank" rel="noopener" href="https://www.landesmuseum.de/creative/museum-x">
-			<img src="/assets/images/logos/blm_museumx.svg" alt="Badisches Landesmuseum Logo" style="margin: 0 1em; max-width:190px">
-		</a>
-		<a target="_blank" rel="noopener" href="https://allardpierson.nl/">
-			<img src="/assets/images/logos/ap_2.svg" alt="Allard Piersson Logo" style="margin: 0 1em; max-width:190px">
-		</a>
-		<a target="_blank" rel="noopener" href="https://hackundsoehne.de/">
-			<img src="/assets/images/hs_logo_white.png" alt="Hack und Soehne Logo" style="margin: 0 1em; max-width: 90px;">
-		</a>
-		<a target="_blank" rel="noopener" href="https://www.museum4punkt0.de">
-			<img src="/assets/images/logos/m4p0_2.png" alt="museum4punkt0 Logo" style="margin: 0 1em; max-width: 130px;">
-		</a>
-		<a target="_blank" rel="noopener" href="https://mwk.baden-wuerttemberg.de">
-			<img src="/assets/images/logos/mwk_2.png" alt="Ministerium Baden-Württemberg Logo" style="margin: 0 1em; max-width: 130px;">
-		</a>
-		<a target="_blank" rel="noopener" href="http://www.kulturstaatsministerin.de/">
-			<img src="/assets/images/logos/bkm.svg" alt="Beauftragte der Bundesregierung (BKM) Logo" style="margin: 0 1em; max-width: 130px;">
-		</a>
-		<a target="_blank" rel="noopener" href="https://neustartkultur.de/">
-			<img src="/assets/images/logos/bkm_neustart_kultur.svg" alt="NEUSTART KULTUR Logo" style="margin: 0 1em; max-width: 90px;">
-		</a>
-	</div>
-	<nav class="footer-links">
-		{% for item in site.data.footerlinks %}
+	<div class="container">
+		<div class="footer-logos">
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://www.landesmuseum.de/creative/museum-x">
+				<img src="/assets/images/logos/blm_museumx.svg" alt="Badisches Landesmuseum Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://allardpierson.nl/">
+				<img src="/assets/images/logos/ap_2.svg" alt="Allard Piersson Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://hackundsoehne.de/">
+				<img src="/assets/images/hs_logo_white.png" alt="Hack und Soehne Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://www.museum4punkt0.de">
+				<img src="/assets/images/logos/m4p0_2.png" alt="museum4punkt0 Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://mwk.baden-wuerttemberg.de">
+				<img src="/assets/images/logos/mwk_2.png" alt="Ministerium Baden-Württemberg Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="http://www.kulturstaatsministerin.de/">
+				<img src="/assets/images/logos/bkm.svg" alt="Beauftragte der Bundesregierung (BKM) Logo">
+			</a>
+			<a class="footer-logo" target="_blank" rel="noopener" href="https://neustartkultur.de/">
+				<img src="/assets/images/logos/bkm_neustart_kultur.svg" alt="NEUSTART KULTUR Logo">
+			</a>
+		</div>
+		<nav class="footer-links">
+			{% for item in site.data.footerlinks %}
 			<a class="footer-link" href="{{ item.link }}">
 				{{ item.name }}
 			</a>
-		{% endfor %}
-	</nav>
+			{% endfor %}
+		</nav>
+	</div>
 </footer>
