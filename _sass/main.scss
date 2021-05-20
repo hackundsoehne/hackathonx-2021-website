@@ -488,3 +488,18 @@ h6 { font-size: 1rem; }
 		margin-top: 1rem;
 	}
 }
+
+.footer-logos {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+
+.footer-links {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+}
