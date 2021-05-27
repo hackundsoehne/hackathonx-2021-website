@@ -10,8 +10,8 @@ bg_position: "80vw 20vh"
 </header>
 
 {% for section in site.about %}
+{% if section.style == "single" %}
 <section class="section">
-	{% if section.style == "single" %}
 	<div class="section-text colored">
 		<h4 class="accent-tc">{{ section.title }}</h4>
 		{{ section.content | markdownify }}
@@ -25,11 +25,10 @@ bg_position: "80vw 20vh"
 		<footer><small> {{section.image-copyright}} </small></footer>
 	</figure> 
 
-	{% elsif section.style == "custom" %}
-	<div class="colored">
-		{{ section.content | markdownify }}
-	</div>
-
-	{% endif %}
 </section>
+{% elsif section.style == "custom" %}
+<section class="multisection">
+	{{ section.content | markdownify }}
+</section>
+{% endif %}
 {% endfor %}
