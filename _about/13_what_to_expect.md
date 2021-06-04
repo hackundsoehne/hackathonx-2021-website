@@ -23,6 +23,9 @@ After hacking through the weekend, you will present your prototype to our jury. 
 <p>
 Admission is completely free. To ensure the right hackathon-spirit, we will send you a survival kit after the registration deadline. Apply now for an unforgettable experience, meet inspiring people and build some awesome projects.
 </p>
+<p>
+Note: Due to logistic difficulties, we can currently only guarantee survival kits for hackers located in Germany.
+</p>
 </div>
 <figure class="section-image">
 <image src="/assets/images/about/ping.jpg" />
