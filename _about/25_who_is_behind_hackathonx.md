@@ -12,6 +12,7 @@ Dr. Johannes Bernhardt is Digital Manager at Badisches Landesmuseum. After ten y
 </div>
 <figure class="section-image">
 <image src="/assets/images/about/johannes.jpg" />
+<figcaption>© Badisches Landesmuseum, Foto: ARTIS – Uli Deck</figcaption>
 </figure>
 </div>
 
