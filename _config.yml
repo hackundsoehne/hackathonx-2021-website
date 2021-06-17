@@ -16,9 +16,9 @@ info_email_hs: info@hackundsoehne.de
 info_email_musx: creative@landesmuseum.de
 date: June 25th-27th, 2021
 apply_url: https://apply.hackathonx.de/
-deadline: "2021-06-17T23:59:59.000+01:00"
-deadline_string: "June 17th 2021, 23:59:59 GMT+1"
-deadline_title: "Application Deadline:"
+deadline: "2021-06-24T23:59:59.000+01:00"
+deadline_string: "June 24th 2021, 23:59:59 GMT+1"
+deadline_title: "Extended Application Deadline:"
 deadline_expired: "The application deadline expired."
 
 defaults:
