@@ -4,8 +4,16 @@ subtitle: "Artificial Intelligence"
 ---
 Do you want to be part of the exciting process of using Artificial Intelligence to make the museum collections more accessible and open to researchers and the public? Together with the Allard Pierson in Amsterdam, the Baden State Museum is working on opening up AI for museums and wants to make corresponding approaches fruitful for our users.
 
-How can machine learning help make the museum's collection and digital offerings more accessible and fun? How does a recommendation system look like, based on the digital collection and existing digital offerings that support users in receiving exactly the information they want in a personalized way? How do we open up the museum as a space for open-linked data to existing databases or open knowledge graphs? What does individualized surprising content look like that provides access and enables your own productions? What support can machine learning provide to navigate millennia of cultural history and a digital collection of over a million objects? How does a unique algorithm look like that gives users worldwide access to their history and empowers them to tell their own story?
-
+- How can machine learning help make the museum's collection and digital offerings more accessible and fun?
+- How does a unique algorithm look like that gives users worldwide access to their history and empowers them to tell their own story?
+- What support can machine learning / deep learning provide to navigate millennia of cultural history and a digital collection of over a million objects?
+- What does individualized surprising content look like that provides access and enables your own productions?
+- How does a system look like based on the digital collection and existing digital offerings that support users in receiving exactly the information they want or need?
+- How can we support User Centered Design?
+- How can machine learning help to enrich collection data with internal and external knowledge?
+- How do we open up the museum data to external (relevant) databases in a user-friendly way?
+- What does individualized surprising content look like that provides access and enables your own productions?
+- How do we deal with potential bias or potential missing content in the collection data?
 ### Prizes
 
 - First place: 1500€
