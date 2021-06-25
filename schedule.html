@@ -58,6 +58,24 @@ While organizing our schedule we chose quality over quantity. We are convinced t
 
 </div>
 
+<h2>Tech Talks</h2>
+<div class="framedlists">
+	<div class="framedlist">
+		<header class="list-header"><b>Saturday</b>, June 26th</header>
+		<ol>
+		{% for item in site.data.talks %}
+			<li>
+				<b>{{ item.time }}</b>
+				<br>
+				<span>{{ item.speaker }}</span>
+				<br>
+				<span><i>{{ item.name }}</i></span>
+			</li>
+		{% endfor %}
+		</ol>
+	</div>
+</div>
+
 <!--
 <div class="content-footer">
 	<p><strong>The Schedule is not yet complete.</p>
